@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-dark">
+
+    <div class="navbar-header">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+           <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+   </div>
+    
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class=" nav-link <% if(active =='index' ) {%>  active <% } %>" href="/">Home</a>
+        </li>
+        <li class="nav-item ">
+          
+         <!--<a class="nav-link active" href="/causes">Causes</a>-->
+         <a class="nav-link <% if(active =='causes' ) {%> active <% } %>" href="/causes">Causes</a>
+
+       </li>
+       <li class="nav-item">
+        <a class="nav-link <% if(active =='events' ) {%> active <% } %>" href="/events">Events</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link <% if(active =='about' ) {%> active <% } %>" href="/about">About Us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link <% if(active =='contactus' ) {%> active <% } %>" href="/contact">Contact Us</a>
+      </li>
+      </ul>
+      <%if(user){ %>
+        <div class="dropdown">
+          <a href="#" style="color:black ; padding : 1em; font-size: medium;"><%=user.username%></a>
+          <a class="dropdown-toggle"  href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            
+            <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="40" height="40" class="rounded-circle">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="/users/logout">Log Out</a>
+          </div>
+        </div> 
+      
+      <%}else{ %>
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item">
+              <a  href="/users/register"><span class="btn btn-outline-warning my-2 my-sm-0">SignUp</a>
+          </li> 
+          <li class="nav-item">
+            <a  href="/users/login"><span class="btn btn-outline-warning my-2 my-sm-0">SignIn </a>
+        </li>
+        </ul>
+        <%}%>     
+  </div>    
+</nav>

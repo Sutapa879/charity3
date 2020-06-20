@@ -1,0 +1,40 @@
+/*------------Events1------------*/
+
+.main_section{
+        padding: 4em;;
+        //background-color:blanchedalmond;
+        background-color: #21D4FD;
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    hr{
+    width:92%;
+
+    }
+    h2{
+        color: black;
+    }
+     p{
+        
+        color: black;
+        text-align:justify;
+        font-weight: bold;
+        font-size:1.2em ; 
+     }
+
+     .card-text{
+         text-indent:10%;
+     }
+
+
+     .page_image img{
+        width: 80vh;
+        height:80vh;
+        border-radius: 20px;
+        
+    }
+
+    .page_content h2,p{
+        width:110vh;
+    }
+
+    
+}       

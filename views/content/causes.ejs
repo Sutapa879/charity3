@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+   <!-- meta tags --> 
+  <%- include('../partials/header') -%>
+
+  </head>
+<body>
+
+<!-- Navigation -->
+<%- include('../partials/nav',{active:"causes"},{user}); -%>
+
+<!-- header section-->
+<header class="header_event">
+  <div class="container-fluid">
+      <div class="row">   
+          <div class=" col-sm-12 col-md-12 col-lg-12 header-content">
+              <h2>Our Events
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing ekajanfinfajfnkanfaknfqowknakfnakndlknzm,cnlakndanlaknlit. Esse, consectetur?</p>   
+              </h2>
+          </div>
+      </div>
+  </div>
+</header>
+   
+  <!-- Colomn sections-->
+<section class="causes_card">  
+<div class="container">
+    <div class=" row justify-content-center">
+        <div class="col-sm-12 col-md-4 col-lg-4 padding_cause">
+            <div class="shadow">
+              <div class="inner">
+                <img class="card-img-top" src="img/causes/education3.jpg" alt="Card image cap">
+            </div>              
+               <div class="card-body text-center">
+                    <h2>Education</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/causes1" class="btn btn-success">Read More</a>
+                 </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 padding_cause">
+            <div class="shadow">
+                <div class="inner">
+                    <img class="card-img-top" src="img/causes/women3.jpg" alt="Card image cap">
+                </div>               
+                 <div class="card-body text-center">
+                    <h2>Women</h2> 
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/causes2" class="btn btn-danger">Read More</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 padding_cause">
+            <div class=" shadow">
+                <div class="inner">
+                    <img class="card-img-top" src="img/causes/health3.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center ">
+                  <h2>Health</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/causes3" class="btn btn-success">Read More</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+</div>
+</section>
+  
+
+<!-- Footer -->
+
+<%- include('../partials/footer') -%>
+
+<!--  JavaScript -->
+<%- include('../partials/script') -%>
+  </body>    
+
+</html>

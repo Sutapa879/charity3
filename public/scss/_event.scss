@@ -1,0 +1,89 @@
+/*----------- Events--------- */
+.header_event{
+    margin-top:5%;
+    padding-top:5% ;
+    background: url(../img/banner_event.jpg) no-repeat center;
+    background-size:cover;
+    height:60vh;
+    position:relative;
+    overflow:hidden;
+
+
+    .header-content {
+      h2{
+        font-size:45px;
+        color:white;
+        font-weight:bold;
+        text-transform:capitalize;
+        margin:0;
+      }
+        p{
+            font-size:20px;
+            margin:0;
+            letter-spacing:1px;
+            color:white;
+            //font-weight:300px;
+            padding:0;
+    
+         
+        }
+    }
+}
+
+
+
+.cards{
+    
+
+    background-color:blanchedalmond;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+    .padding_event{
+        padding: 1em;  
+      }
+     h2{
+         margin:0;
+     }
+    .img_padding{
+        height:300px;
+    }
+    .inner{
+        overflow:hidden;
+    }
+    .inner img{
+        transition:all 1.5s ease;
+    }
+    .inner:hover img{
+        transform:scale(1.5);
+    }
+    .card:hover{
+        background:blanchedalmond;
+
+  }
+
+  p,h2 {
+    color:lighten($color: #000000, $amount: 12);   
+  }
+.card-body p{
+    font-size:1.2em;
+    font-weight:normal;
+}
+
+
+
+ }
+
+    
+    /*header:after{
+        content:'';
+        position: absolute;
+        bottom:0;
+        width:100%;
+        background-image: url(../img/wave-bottom.svg);
+        height:275px;
+    }*/
+   
+    
+    
+    

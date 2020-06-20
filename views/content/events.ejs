@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+  <%- include('../partials/header') -%>
+
+  </head>
+<body>
+
+<!-- Navigation -->
+<%- include('../partials/nav' , {active: "events"},{user}); -%>
+
+    <!-- header section-->
+<header class="header_event">
+    <div class="container-fluid">
+        <div class="row">   
+            <div class=" col-sm-12 col-md-12 col-lg-12 header-content">
+                <h2>Our Events
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing ekajanfinfajfnkanfaknfqowknakfnakndlknzm,cnlakndanlaknlit. Esse, consectetur?</p>   
+                </h2>
+            </div>
+        </div>
+    </div>
+</header>
+   
+  <!-- Colomn sections-->
+
+<section class="cards">  
+<div class="container">
+    <div class=" row">
+        <div class="col-sm-12 col-md-6 col-lg-6 padding_event">
+            <div class="card shadow">
+                <div class="inner">
+                    <img class="card-img-top img-fluid img_padding" src="img/Picture/pic1.jpg" alt="Card image cap">
+                </div>              
+               <div class="card-body text-center">
+                    <h2>Food Distribution</h2>
+                  <p class="card-text">These ‘Hunger Heroes’ Are Feeding India’s Poor Meals They’ve Never Had. With Your Excess Food. </p>
+                  <a href="/events1" class="btn btn-success">Read More</a>
+                 </div>
+              </div>
+        </div>
+    </div>    
+    <div class=" row flex-row-reverse">       
+            <div class="col-sm-12 col-md-6 col-lg-6 padding_event">
+            <div class="card shadow ">
+                <div class="inner">
+                    <img class="card-img-top img-fluid" src="img/Picture/pic2.jpg" alt="Card image cap">
+                </div>               
+                <div class="card-body text-center">
+                    <h2>cloth Distribution</h2> 
+                <p class="card-text">Winter Wishes: Donate Warm Clothes & Blankets Here.</p>
+                <a href="/events2" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div class=" row">    
+        <div class="col-sm-12 col-md-6 col-lg-6 padding_event">
+            <div class="card shadow">
+                <div class="inner">
+                    <img class="card-img-top img-fluid" src="img/Picture/pic3.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center ">
+                  <h2>Helping the children</h2>
+                  <p class="card-text">Save the Children helps children with the donation money and provides them access to quality education. Visit the website to read about what we do for children's education.</p>
+                  <a href="/events3" class="btn btn-success">Read More</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+</div>
+ </section> 
+
+
+  
+
+<!-- Footer -->
+<%- include('../partials/footer') -%>
+
+<!--  JavaScript -->
+<%- include('../partials/script') -%>
+</body>    
+
+</html>

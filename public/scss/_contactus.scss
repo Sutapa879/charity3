@@ -1,0 +1,86 @@
+/*Contact Us */
+
+.section_welcome{
+    padding:1em; 
+.leads{
+  padding:2px;
+  color: #003e8f;
+font-weight: 700;
+font-family: Montserrat;
+  }
+  p{
+    font-family: Montserrat;
+  }
+}
+
+.section-mid{
+    background-color: brown;
+    padding: 4em;
+    color:white;
+    p{
+        font-size: 30px;;
+    }
+}
+
+.section-end{
+  background-color: #3498db;
+  border-radius: 20px;
+}
+
+.section-text{
+  border-radius: 20px;
+  padding:2em;
+  background-color: #e74c3c;
+  font-family: Montserrat;
+
+}
+
+.contact-section{
+  //background-color:blanchedalmond;
+  padding:1em;
+  border-radius:30px;
+h2{
+  text-align: center;
+  color:black;
+  font-family: Montserrat;
+
+  
+}
+.contact-form{
+  margin:auto;
+  
+  padding:1em;
+
+ max-width:600px;
+}
+
+.contact-form-text{
+  display:block;
+  width:50%;
+  box-sizing:border-box;
+  border:0;
+  border-radius: 5px;
+  margin:1px;
+}
+
+textarea.contact-form-text{
+  resize:none;
+  height:90px;
+}
+.contact-form-btn{
+
+  border:none;
+  padding:5px 12px;
+  color:black;
+  background-color: orange;
+  border-radius: 8px;
+  
+}
+
+.contact-form-btn:hover{
+  background: white;
+}
+
+
+}
+

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+  <%- include('../partials/header') -%>
+
+  </head>
+<body>
+
+<!-- Navigation -->
+<%- include('../partials/nav' , {active: "contactus"}); -%>
+
+    
+  
+    
+<!-- Welcome Section    
+<section class="section_welcome">
+  <div class="container-fluid">
+    <div class="row welco text-center">
+      <div class="col-12">
+          <h1 class="leads">Contact Us</h1>
+          <p>There are millions of poor people in the world. What is our responsibility towards them?
+                Should we help them? How can we help them? This is what the pupils in A17 have been discussing in their English class. Read their opinions!
+              I think we have a lot of opportunities to help poor people. I can work voluntarily with different organizations. I can help them with money or give them extra things like clothes and shoes. I can help them with education. We can help them to stop wars.
+                We can give them small loans to open their own businesses.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>   -->
+<!--================Contact Area =================-->
+<section class="contact_area p_120">
+  <div class="container">
+       <div class="row">
+          <div class="col-lg-3">
+              <div class="contact_info">
+                  <div class="info_item">
+                      <i class="lnr lnr-home"></i>
+                      <h6>Jadavpur University Saltlake Campus</h6>
+                      <p> Salt Lake City , Block-LB, Plot No. 8, Sector - III, Kolkata - 700098.</p>
+                  </div>
+                  <div class="info_item">
+                      <i class="lnr lnr-phone-handset"></i>
+                      <h6>
+                          <a href="#">+9133-24146666</a>
+                      </h6>
+                      <p>Mon to Fri 9am to 6 pm</p>
+                  </div>
+                  <div class="info_item">
+                      <i class="lnr lnr-envelope"></i>
+                      <h6>
+                          <a href="#">support@happytohelp.com</a>
+                      </h6>
+                      <p>Send us your query anytime!</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-9">
+              <form class="row contact_form" action="http://formspree.io/bishaldas00160@gmail.com" method="post" id="contactForm" novalidate="novalidate">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                      </div>
+                      <div class="form-group">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-12 text-right">
+                      <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+    
+<!-- Footer -->
+
+<%- include('../partials/footer') -%>
+
+<!--  JavaScript -->
+<%- include('../partials/script') -%>
+
+
+  </body>    
+
+</html>

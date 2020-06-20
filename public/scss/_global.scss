@@ -1,0 +1,58 @@
+/*---------Gobal-------*/
+html,body{
+    height:100%;
+    width:100%;
+    font-family:'Popins',sans-serif;
+    color:#222;
+}
+
+.navbar{
+     width:100%;
+    // padding:1rem;
+    //background-color: #563D7C; 
+    background-color:#C74656;
+    //background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,149,218,0.85) 9.9%, rgba(56,80,114,1) 100.3% );
+
+.nav-link{
+        font-size:16px;
+        text-transform: uppercase;
+        color:white;
+        &:hover{
+            background-color:complement(#C74656);
+            border-radius: 10px;
+           }
+    }
+
+ .active{
+        background-color:#0079c1;
+        border-radius:10px;
+    }
+
+    .nav-item{
+        padding:.08em;
+    }
+
+
+   
+}
+
+
+
+/*.page-holder {
+    min-height: 100vh;
+  }
+  
+  /*.bg {
+    background-image: url(../img/banner.jpg);
+    background-size: cover !important;
+        background-position: center;
+    background-repeat: no-repeat;
+  }
+  */
+
+
+
+
+
+
+
